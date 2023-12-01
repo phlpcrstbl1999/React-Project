@@ -13,8 +13,10 @@ function App() {
         <h3>This is a children.</h3>
       </Profile> */}
 
+      {/* Functional props */}
       {/* <Profile firstName="Philip" lastName="Cristobal"/> */}
 
+      {/* Class Based props */}
       <MessageProp messageContent="This is a message prop" messageCode="10"/>
     </div>
   );
