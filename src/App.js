@@ -3,7 +3,7 @@ import './App.css';
 import MessageProp from './components/MessageProp';
 // import Hello from './components/Hello';
 // import Message from './components/Message';
-// import Profile from './components/Profile';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
       </Profile> */}
 
       {/* Functional props */}
-      {/* <Profile firstName="Philip" lastName="Cristobal"/> */}
+      <Profile firstName="Philip" lastName="Cristobal"/>
 
       {/* Class Based props */}
-      <MessageProp messageContent="This is a message prop" messageCode="10"/>
+      {/* <MessageProp messageContent="This is a message prop" messageCode="10"/> */}
     </div>
   );
 }
