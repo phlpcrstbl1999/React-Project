@@ -7,6 +7,6 @@
 // </h1>;
 
 //Cannot assign to readonly property 'firstName' or 'lastName';
-const Profile = (props) =>  { props.firstName = "Pogi"; <h1>Name: {props.firstName + ' ' + props.lastName} </h1>}
+const Profile = (props) => <h1>Name: {props.firstName + ' ' + props.lastName} </h1>
 
 export default Profile;
