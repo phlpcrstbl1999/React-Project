@@ -3,8 +3,9 @@ import './App.css';
 // import MessageProp from './components/MessageProp';
 // import Hello from './components/Hello';
 // import Message from './components/Message';
-import Counter from './components/Counter';
-// import Profile from './components/Profile';
+// import Counter from './components/Counter';
+import Resume from './components/Resume';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* Class Based props */}
       {/* <MessageProp messageContent="This is a message prop" messageCode="10"/> */}
 
-      <Counter/>
+      {/* <Counter/> */}
+      <Resume name="Philip Cristobal"></Resume>
     </div>
   );
 }
